@@ -1,0 +1,162 @@
+
+/* index css */
+
+a.btn,.btn {
+  margin-right: 1em; /* remove this while use*/
+  margin-bottom: 0em; /* remove this while use*/
+    display: inline-block;
+    outline: none;
+    *zoom: 1;
+    text-align: center;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 300;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    border: 1px solid;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+/* Radius */
+.btn-radius {
+  border-radius: 3px;
+}
+
+/* Colors */
+.btn-green {
+    color: #3CB371;
+    border-color: #3CB371;
+}
+.btn-green:hover {
+  background: #3CB371;
+  color: #fff;
+  border-color: #3CB371;
+}
+
+.btn-blue {
+    color: #4682B4;
+    border-color: #4682B4;
+}
+.btn-blue:hover {
+  background: #4682B4;
+  color: #fff;
+  border-color: #4682B4;
+}
+
+/* footer css */
+.footer {
+        background-color: #B0B0AE;
+        width: 100%;
+        height: auto;
+        padding-bottom:20px;
+    }
+
+  #foot{
+    padding-top: 40px;
+  }
+  #foot2{
+    padding-top: 30px;
+  }
+  .footer2 {
+    background-color: #000;
+        width: 100%;
+        height: auto;
+        padding-bottom:10px;
+        color: white;
+  }
+  #foot3{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+/* login css */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+/* Buttons styles */
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+
+
+form {
+  background-color: #FFFFFF;
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+}
+
+.login_form{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+  background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 360px;
+
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.log-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+
+.overlay {
+  background: #53A09C;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #FFFFFF;
+  position: relative;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+}
+
+.overlay-panel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+}
+
+
+.overlay-right {
+  right: 0;
+}
